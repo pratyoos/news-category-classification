@@ -1,0 +1,16 @@
+name: news-category-classifier
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - wordcloud
+  - joblib
+  - jupyterlab
+  - streamlit
